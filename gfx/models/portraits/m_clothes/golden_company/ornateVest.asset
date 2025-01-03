@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "ornateVest_mesh"
+	file = "ornateVest.mesh"
+
+	meshsettings = {
+		name = "vest"
+		index = 0
+		texture_diffuse = "ornateVest_diffuse.dds"
+		texture_normal = "ornateVest_normal.dds"
+		texture_specular = "ornateVest_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "ornateVest_entity"
+	pdxmesh = "ornateVest_mesh"
+}
+
+pdxmesh = {
+	name = "standardVest_mesh"
+	file = "ornateVestStandardShoulders.mesh"
+
+	meshsettings = {
+		name = "vest"
+		index = 0
+		texture_diffuse = "standardVest_diffuse.dds"
+		texture_normal = "standardVest_normal.dds"
+		texture_specular = "standardVest_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "standardVest_entity"
+	pdxmesh = "standardVest_mesh"
+}
+
+
+
+

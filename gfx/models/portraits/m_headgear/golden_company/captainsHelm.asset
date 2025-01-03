@@ -1,0 +1,23 @@
+pdxmesh = {
+	name = "captainsHelm_mesh"
+	file = "captainsHelm.mesh"
+
+	meshsettings = {
+		name = "captainsHelm"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "captainsHelm_entity"
+	pdxmesh = "captainsHelm_mesh"
+}
+
+
+

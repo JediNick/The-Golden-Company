@@ -1,0 +1,4 @@
+﻿male_legwear_captainsPants_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = captainsPants_entity	  }
+}
