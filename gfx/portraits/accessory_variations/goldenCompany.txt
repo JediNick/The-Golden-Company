@@ -16,6 +16,14 @@ pattern_textures = {
 	properties	= "gfx/portraits/accessory_variations/textures/goldanCompanyMetal_properties.dds"
 }
 
+pattern_textures = {
+	name = "goldenCompany_Basemetal"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/statue/gold_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/statue/gold_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/goldanCompanyBaseMetal_properties.dds"
+}
+
+
 
 pattern_layout = {
 	name = "goldenCompanyMetal_layout"	
@@ -39,7 +47,7 @@ variation = {
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
 		r = { textures = "leather_plain_goldenCompany" 	layout = "goldenCompanyLeather_layout"}
 		g = { textures = "western_linen_plain_01" 	layout = "plain_fabric_layout" }
-		b = { textures = "goldenCompany_metal" layout = "goldenCompanyMetal_layout" }
+		b = { textures = "goldenCompany_Basemetal" layout = "goldenCompanyMetal_layout" }
 		a = { textures = "goldenCompany_metal"	layout = "goldenCompanyMetal_layout" }
 	}	
 		
