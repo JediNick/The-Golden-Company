@@ -3,6 +3,11 @@
 	entity = { required_tags = ""			shared_pose_entity = torso	entity = captainsArmor_entity }		
 }
 
+male_clothes_captainsArmorMetal_01 = {
+        set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""			shared_pose_entity = torso	entity = captainsArmorMetal_entity }		
+}
+
 male_clothes_ornateVest_01 = {
         set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""			shared_pose_entity = torso	entity = ornateVest_entity }		
