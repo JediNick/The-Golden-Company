@@ -8,7 +8,7 @@ pdxmesh = {
 		texture_diffuse = "ornateVest_diffuse.dds"
 		texture_normal = "ornateVest_normal.dds"
 		texture_specular = "ornateVest_properties.dds"
-		shader = "portrait_attachment"
+		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 
@@ -17,6 +17,15 @@ pdxmesh = {
 entity = {
 	name = "ornateVest_entity"
 	pdxmesh = "ornateVest_mesh"
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_clothes/golden_company/ornateVest_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
 }
 
 pdxmesh = {
@@ -29,7 +38,7 @@ pdxmesh = {
 		texture_diffuse = "standardVest_diffuse.dds"
 		texture_normal = "standardVest_normal.dds"
 		texture_specular = "standardVest_properties.dds"
-		shader = "portrait_attachment"
+		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 
@@ -38,6 +47,15 @@ pdxmesh = {
 entity = {
 	name = "standardVest_entity"
 	pdxmesh = "standardVest_mesh"
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_clothes/golden_company/standardVest_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
 }
 
 
