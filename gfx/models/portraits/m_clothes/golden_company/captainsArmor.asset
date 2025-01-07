@@ -2,8 +2,31 @@ pdxmesh = {
 	name = "captainsArmor_mesh"
 	file = "captainsArmor.mesh"
 
+	blend_shape = { id = "captainsArmor_bs_muscle"			type = "captainsArmor_bs_muscle.mesh" }
+	blend_shape = { id = "captainsArmor_bs_fat"			type = "captainsArmor_bs_fat.mesh" }
+
 	meshsettings = {
-		name = "captainsArmor"
+		name = "vest"
+		index = 0
+		texture_diffuse = "CaptainArmor_diffuse.dds"
+		texture_normal = "CaptainArmor_normal.dds"
+		texture_specular = "CaptainArmor_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "shoulders"
+		index = 0
+		texture_diffuse = "CaptainArmor_diffuse.dds"
+		texture_normal = "CaptainArmor_normal.dds"
+		texture_specular = "CaptainArmor_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "straps"
 		index = 0
 		texture_diffuse = "CaptainArmor_diffuse.dds"
 		texture_normal = "CaptainArmor_normal.dds"
@@ -18,8 +41,31 @@ pdxmesh = {
 	name = "captainsArmorMetal_mesh"
 	file = "captainsArmor.mesh"
 
+	blend_shape = { id = "captainsArmor_bs_muscle"		type = "captainsArmor_bs_muscle.mesh" }
+	blend_shape = { id = "captainsArmor_bs_fat"			type = "captainsArmor_bs_fat.mesh" }
+
 	meshsettings = {
-		name = "captainsArmor"
+		name = "vest"
+		index = 0
+		texture_diffuse = "CaptainArmor_diffuse.dds"
+		texture_normal = "CaptainArmorMetal_normal.dds"
+		texture_specular = "CaptainArmorMetal_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "shoulders"
+		index = 0
+		texture_diffuse = "CaptainArmor_diffuse.dds"
+		texture_normal = "CaptainArmorMetal_normal.dds"
+		texture_specular = "CaptainArmorMetal_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "straps"
 		index = 0
 		texture_diffuse = "CaptainArmor_diffuse.dds"
 		texture_normal = "CaptainArmorMetal_normal.dds"
@@ -35,6 +81,9 @@ entity = {
 	name = "captainsArmorMetal_entity"
 	pdxmesh = "captainsArmorMetal_mesh"
 	
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "captainsArmor_bs_muscle" }
+	attribute = { name = "bs_body_fat_1"					blend_shape = "captainsArmor_bs_fat" }
+
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
@@ -50,6 +99,10 @@ entity = {
 	name = "captainsArmor_entity"
 	pdxmesh = "captainsArmor_mesh"
 	
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "captainsArmor_bs_muscle" }
+	attribute = { name = "bs_body_fat_1"					blend_shape = "captainsArmor_bs_fat" }
+
+
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
