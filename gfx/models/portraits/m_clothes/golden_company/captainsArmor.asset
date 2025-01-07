@@ -4,6 +4,7 @@ pdxmesh = {
 
 	blend_shape = { id = "captainsArmor_bs_muscle"			type = "captainsArmor_bs_muscle.mesh" }
 	blend_shape = { id = "captainsArmor_bs_fat"			type = "captainsArmor_bs_fat.mesh" }
+	blend_shape = { id = "captainsArmor_bs_gaunt"			type = "captainsArmor_bs_gaunt.mesh" }
 
 	meshsettings = {
 		name = "vest"
@@ -43,6 +44,7 @@ pdxmesh = {
 
 	blend_shape = { id = "captainsArmor_bs_muscle"		type = "captainsArmor_bs_muscle.mesh" }
 	blend_shape = { id = "captainsArmor_bs_fat"			type = "captainsArmor_bs_fat.mesh" }
+	blend_shape = { id = "captainsArmor_bs_gaunt"			type = "captainsArmor_bs_gaunt.mesh" }
 
 	meshsettings = {
 		name = "vest"
@@ -83,6 +85,7 @@ entity = {
 	
 	attribute = { name = "bs_body_muscular_1"					blend_shape = "captainsArmor_bs_muscle" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "captainsArmor_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "captainsArmor_bs_gaunt" }
 
 	game_data = {
         portrait_entity_user_data = {
@@ -101,6 +104,7 @@ entity = {
 	
 	attribute = { name = "bs_body_muscular_1"					blend_shape = "captainsArmor_bs_muscle" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "captainsArmor_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "captainsArmor_bs_gaunt" }
 
 
 	game_data = {
