@@ -1,0 +1,19 @@
+﻿on_game_start = {
+	on_actions = {
+		tgc_start
+	}
+}
+
+tgc_start = {
+	effect = {
+       set_global_variable = {
+			name = tgc_enabled
+			value = yes
+		}
+       if = {
+           limit = {
+               exists = global_var:tgc_enabled
+			}
+		}
+	}
+}
