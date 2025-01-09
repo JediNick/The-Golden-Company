@@ -1,0 +1,59 @@
+pdxmesh = {
+	name = "ornateVest_mesh"
+	file = "ornateVest.mesh"
+	
+	blend_shape = { id = "ornateVest_bs_muscle"			type = "ornateVest_bs_muscular.mesh" }
+	blend_shape = { id = "ornateVest_bs_old"			type = "ornateVest_bs_old.mesh" }
+
+	meshsettings = {
+		name = "vest"
+		index = 0
+		texture_diffuse = "ornateVest_diffuse.dds"
+		texture_normal = "ornateVest_normal.dds"
+		texture_specular = "ornateVest_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "shoulders"
+		index = 0
+		texture_diffuse = "ornateVest_diffuse.dds"
+		texture_normal = "ornateVest_normal.dds"
+		texture_specular = "ornateVest_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+	meshsettings = {
+		name = "straps"
+		index = 0
+		texture_diffuse = "ornateVest_diffuse.dds"
+		texture_normal = "ornateVest_normal.dds"
+		texture_specular = "ornateVest_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+
+
+}
+
+entity = {
+	name = "ornateVest_entity"
+	pdxmesh = "ornateVest_mesh"
+		
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "ornateVest_bs_muscle" }
+	attribute = { name = "bs_body_old_1"					blend_shape = "ornateVest_bs_old" }
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_clothes/golden_company/ornateVest/ornateVest_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
