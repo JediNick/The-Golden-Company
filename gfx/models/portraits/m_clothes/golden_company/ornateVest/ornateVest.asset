@@ -6,6 +6,7 @@ pdxmesh = {
 	blend_shape = { id = "ornateVest_bs_old"			type = "ornateVest_bs_old.mesh" }
 	blend_shape = { id = "ornateVest_bs_fat"			type = "ornateVest_bs_fat.mesh" }
 	blend_shape = { id = "ornateVest_bs_gaunt"			type = "ornateVest_bs_gaunt.mesh" }
+	blend_shape = { id = "ornateVest_bs_dwarf"			type = "ornateVest_bs_dwarf.mesh" }
 
 	meshsettings = {
 		name = "vest"
@@ -49,6 +50,7 @@ entity = {
 	attribute = { name = "bs_body_old_1"					blend_shape = "ornateVest_bs_old" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "ornateVest_bs_fat" }
 	attribute = { name = "bs_body_gaunt_1"					blend_shape = "ornateVest_bs_gaunt" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "ornateVest_bs_dwarf" }
 
 	game_data = {
         portrait_entity_user_data = {
