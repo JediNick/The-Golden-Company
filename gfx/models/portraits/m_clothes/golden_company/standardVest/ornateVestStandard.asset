@@ -3,11 +3,11 @@ pdxmesh = {
 	file = "ornateVestStandardShoulders.mesh"
 
 
-	##blend_shape = { id = "standardVest_bs_muscle"			type = "standardVest_bs_muscular.mesh" }
+	blend_shape = { id = "standardVest_bs_muscle"			type = "standardVest_bs_muscular.mesh" }
 	blend_shape = { id = "standardVest_bs_fat"			type = "standardVest_bs_fat.mesh" }
-	##blend_shape = { id = "standardVest_bs_gaunt"			type = "standardVest_bs_gaunt.mesh" }
+	blend_shape = { id = "standardVest_bs_gaunt"			type = "standardVest_bs_gaunt.mesh" }
 	blend_shape = { id = "standardVest_bs_old"			type = "standardVest_bs_old.mesh" }
-	##blend_shape = { id = "standardVest_bs_dwarf"			type = "standardVest_bs_dwarf.mesh" }
+	blend_shape = { id = "standardVest_bs_dwarf"			type = "standardVest_bs_dwarf.mesh" }
 	
 	meshsettings = {
 		name = "vest"
@@ -46,11 +46,11 @@ entity = {
 	pdxmesh = "standardVest_mesh"
 
 	
-	##attribute = { name = "bs_body_muscular_1"					blend_shape = "standardVest_bs_muscle" }
+	attribute = { name = "bs_body_muscular_1"					blend_shape = "standardVest_bs_muscle" }
 	attribute = { name = "bs_body_fat_1"					blend_shape = "standardVest_bs_fat" }
-	##attribute = { name = "bs_body_gaunt_1"					blend_shape = "standardVest_bs_gaunt" }
+	attribute = { name = "bs_body_gaunt_1"					blend_shape = "standardVest_bs_gaunt" }
 	attribute = { name = "bs_body_old_1"					blend_shape = "standardVest_bs_old" }
-	##attribute = { name = "bs_body_dwarf_1"					blend_shape = "standardVest_bs_dwarf" }
+	attribute = { name = "bs_body_dwarf_1"					blend_shape = "standardVest_bs_dwarf" }
 
 	game_data = {
         portrait_entity_user_data = {
