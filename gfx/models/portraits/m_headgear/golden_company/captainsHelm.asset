@@ -2,8 +2,43 @@ pdxmesh = {
 	name = "captainsHelm_mesh"
 	file = "captainsHelm.mesh"
 
+		
+	blend_shape = { id = "completeHelm_bs_dwarf_fat"					type = "captainsHelm_bs_fat.mesh" }
+	blend_shape = { id = "completeHelm_bs_muscular"			type = "captainsHelm_bs_muscular.mesh" }
+	blend_shape = { id = "completeHelm_bs_dwarf"				type = "captainsHelm_bs_dwarf.mesh" }
+
 	meshsettings = {
-		name = "captainsHelm"
+		name = "helmet"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "mask"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "cloth"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "top"
 		index = 0
 		texture_diffuse = "CaptainsHelm_diffuse.dds"
 		texture_normal = "CaptainsHelm_normal.dds"
@@ -17,6 +52,12 @@ pdxmesh = {
 entity = {
 	name = "captainsHelm_entity"
 	pdxmesh = "captainsHelm_mesh"
+
+		
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
+	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
+	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	
 	
 	game_data = {
         portrait_entity_user_data = {
@@ -27,6 +68,3 @@ entity = {
         }
 	}
 }
-
-
-
