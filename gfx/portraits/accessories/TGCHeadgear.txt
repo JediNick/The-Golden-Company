@@ -13,3 +13,18 @@ male_headgear_tgc_helm_mask_03 = {
 	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelm_noRidge_entity		  }
 }
 
+male_headgear_tgc_helm_01 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelmFull_entity		  }
+}
+
+male_headgear_tgc_helm_02 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noCloth_entity		  }
+}
+
+male_headgear_tgc_helm_03 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noRidge_entity		  }
+}
+
