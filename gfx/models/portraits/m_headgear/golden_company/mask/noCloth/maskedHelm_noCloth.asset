@@ -1,0 +1,60 @@
+pdxmesh = {
+	name = "maskedHelm_noCloth_mesh"
+	file = "maskedHelm_noCloth.mesh"
+
+		
+	blend_shape = { id = "completeHelm_bs_dwarf_fat"					type = "maskedHelm_noCloth_bs_fat.mesh" }
+	blend_shape = { id = "completeHelm_bs_muscular"			type = "maskedHelm_noCloth_bs_muscular.mesh" }
+	blend_shape = { id = "completeHelm_bs_dwarf"				type = "maskedHelm_noCloth_bs_dwarf.mesh" }
+
+	meshsettings = {
+		name = "helmet"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "mask"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "top"
+		index = 0
+		texture_diffuse = "CaptainsHelm_diffuse.dds"
+		texture_normal = "CaptainsHelm_normal.dds"
+		texture_specular = "CaptainsHelm_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "maskedHelm_noCloth_entity"
+	pdxmesh = "maskedHelm_noCloth_mesh"
+
+		
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
+	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
+	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_headgear/golden_company/CaptainsHelm_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_helm"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

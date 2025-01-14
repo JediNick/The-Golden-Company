@@ -1,4 +1,15 @@
-﻿male_headgear_captains_helm_01 = {
+﻿male_headgear_tgc_helm_mask_01 = {
 	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard"
-	entity = { required_tags = ""		shared_pose_entity = head entity = captainsHelm_entity		  }
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelmFull_entity		  }
 }
+
+male_headgear_tgc_helm_mask_02 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelm_noCloth_entity		  }
+}
+
+male_headgear_tgc_helm_mask_03 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelm_noRidge_entity		  }
+}
+
