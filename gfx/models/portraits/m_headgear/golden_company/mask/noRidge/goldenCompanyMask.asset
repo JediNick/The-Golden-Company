@@ -1,27 +1,27 @@
 pdxmesh = {
-	name = "maskedHelm_noRidge_mesh"
-	file = "maskedHelm_noRidge.mesh"
+	name = "goldenCompanyMask_mesh"
+	file = "goldenCompanyMask.mesh"
 
 		
-	blend_shape = { id = "completeHelm_bs_dwarf_fat"					type = "maskedHelm_noRidge_bs_fat.mesh" }
-	blend_shape = { id = "completeHelm_bs_muscular"			type = "maskedHelm_noRidge_bs_muscular.mesh" }
-	blend_shape = { id = "completeHelm_bs_dwarf"				type = "maskedHelm_noRidge_bs_dwarf.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekProm"				type = "maskedHelm_noRidge_bs_cheek_prom.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekDef"				type = "maskedHelm_noRidge_bs_cheek_def.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekFat1"				type = "maskedHelm_noRidge_bs_cheek_fat1.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekFat2"				type = "maskedHelm_noRidge_bs_cheek_fat2.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekFat3"				type = "maskedHelm_noRidge_bs_cheek_fat3.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekFat4"				type = "maskedHelm_noRidge_bs_cheek_fat4.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekWidth"				type = "maskedHelm_noRidge_bs_cheek_width.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekForward"				type = "maskedHelm_noRidge_bs_cheek_forward.mesh" }
-	blend_shape = { id = "completeHelm_bs_cheekFatMax"				type = "maskedHelm_noRidge_bs_cheek_fat_max.mesh" }
+	blend_shape = { id = "completeHelm_bs_dwarf_fat"					type = "goldenCompanyMask_bs_fat.mesh" }
+	blend_shape = { id = "completeHelm_bs_muscular"			type = "goldenCompanyMask_bs_muscular.mesh" }
+	blend_shape = { id = "completeHelm_bs_dwarf"				type = "goldenCompanyMask_bs_dwarf.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekProm"				type = "goldenCompanyMask_bs_cheek_prom.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekDef"				type = "goldenCompanyMask_bs_cheek_def.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekFat1"				type = "goldenCompanyMask_bs_cheek_fat1.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekFat2"				type = "goldenCompanyMask_bs_cheek_fat2.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekFat3"				type = "goldenCompanyMask_bs_cheek_fat3.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekFat4"				type = "goldenCompanyMask_bs_cheek_fat4.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekWidth"				type = "goldenCompanyMask_bs_cheek_width.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekForward"				type = "goldenCompanyMask_bs_cheek_forward.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekFatMax"				type = "goldenCompanyMask_bs_cheek_fat_max.mesh" }
 
-	blend_shape = { id = "completeHelm_bs_cheekDef2"				type = "maskedHelm_noRidge_bs_cheek_def2.mesh" }
-	blend_shape = { id = "completeHelm_bs_JawMax"				type = "maskedHelm_noRidge_bs_jaw_def.mesh" }
-	blend_shape = { id = "completeHelm_bs_NeckWidth"				type = "maskedHelm_noRidge_bs_neck_width.mesh" }
+	blend_shape = { id = "completeHelm_bs_cheekDef2"				type = "goldenCompanyMask_bs_cheek_def2.mesh" }
+	blend_shape = { id = "completeHelm_bs_JawMax"				type = "goldenCompanyMask_bs_jaw_def.mesh" }
+	blend_shape = { id = "completeHelm_bs_NeckWidth"				type = "goldenCompanyMask_bs_neck_width.mesh" }
 
-	blend_shape = { id = "completeHelm_bs_RoundHead"				type = "maskedHelm_noRidge_bs_round_head.mesh" }
-	blend_shape = { id = "completeHelm_bs_HeightLower"				type = "maskedHelm_noRidge_bs_headHeight.mesh" }
+	blend_shape = { id = "completeHelm_bs_RoundHead"				type = "goldenCompanyMask_bs_round_head.mesh" }
+	blend_shape = { id = "completeHelm_bs_HeightLower"				type = "goldenCompanyMask_bs_headHeight.mesh" }
 
 	meshsettings = {
 		name = "mask"
@@ -36,8 +36,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "maskedHelm_noRidge_entity"
-	pdxmesh = "maskedHelm_noRidge_mesh"
+	name = "goldenCompanyMask_entity"
+	pdxmesh = "goldenCompanyMask_mesh"
 	
 		
 	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
@@ -71,8 +71,8 @@ entity = {
 }
 
 entity = {
-	name = "maskedHelm_noRidge_black_entity"
-	pdxmesh = "maskedHelm_noRidge_mesh"
+	name = "goldenCompanyMask_black_entity"
+	pdxmesh = "goldenCompanyMask_mesh"
 
 		
 	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
