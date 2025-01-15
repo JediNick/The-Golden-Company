@@ -3,9 +3,7 @@ pdxmesh = {
 	file = "unmaskedHelm_noCloth.mesh"
 
 		
-	blend_shape = { id = "completeHelm_bs_dwarf_fat"					type = "unmaskedHelm_noCloth_bs_fat.mesh" }
-	blend_shape = { id = "completeHelm_bs_muscular"			type = "unmaskedHelm_noCloth_bs_muscular.mesh" }
-	blend_shape = { id = "completeHelm_bs_dwarf"				type = "unmaskedHelm_noCloth_bs_dwarf.mesh" }
+	blend_shape = { id = "completeHelm_bs_fat"					type = "unmaskedHelm_noCloth_bs_fat.mesh" }
 	blend_shape = { id = "completeHelm_bs_longBeard"				type = "unmaskedHelm_noCloth_bs_longBeard.mesh" }
 
 	meshsettings = {
@@ -35,9 +33,7 @@ entity = {
 	pdxmesh = "unmaskedHelmFull_noCloth_mesh"
 
 		
-	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
-	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
-	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_fat" }
 	attribute = { name = "bs_long_beard"			blend_shape = "completeHelm_bs_longBeard" }
 
 	
@@ -56,10 +52,7 @@ entity = {
 	name = "unmaskedHelm_noCloth_black_entity"
 	pdxmesh = "unmaskedHelmFull_noCloth_mesh"
 
-		
-	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
-	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
-	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_fat" }
 	attribute = { name = "bs_long_beard"			blend_shape = "completeHelm_bs_longBeard" }
 
 	
