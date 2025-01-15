@@ -18,10 +18,22 @@ pdxmesh = {
 
 	blend_shape = { id = "completeHelm_bs_cheekDef2"				type = "goldenCompanyMask_bs_cheek_def2.mesh" }
 	blend_shape = { id = "completeHelm_bs_JawMax"				type = "goldenCompanyMask_bs_jaw_def.mesh" }
+	blend_shape = { id = "completeHelm_bs_JawDefMax"				type = "goldenCompanyMask_bs_jaw_def_max.mesh" }
+
 	blend_shape = { id = "completeHelm_bs_NeckWidth"				type = "goldenCompanyMask_bs_neck_width.mesh" }
 
 	blend_shape = { id = "completeHelm_bs_RoundHead"				type = "goldenCompanyMask_bs_round_head.mesh" }
 	blend_shape = { id = "completeHelm_bs_HeightLower"				type = "goldenCompanyMask_bs_headHeight.mesh" }
+
+	blend_shape = { id = "completeHelm_bs_Naso1"				type = "goldenCompanyMask_bs_naso1.mesh" }
+	blend_shape = { id = "completeHelm_bs_Naso2"				type = "goldenCompanyMask_bs_naso2.mesh" }
+	blend_shape = { id = "completeHelm_bs_Naso4"				type = "goldenCompanyMask_bs_naso4.mesh" }
+
+	blend_shape = { id = "completeHelm_bs_Old1"				type = "goldenCompanyMask_bs_old_1.mesh" }
+	blend_shape = { id = "completeHelm_bs_Old2"				type = "goldenCompanyMask_bs_old_2.mesh" }
+	blend_shape = { id = "completeHelm_bs_Old3"				type = "goldenCompanyMask_bs_old_3.mesh" }
+	blend_shape = { id = "completeHelm_bs_Old4"				type = "goldenCompanyMask_bs_old_4.mesh" }
+
 
 	meshsettings = {
 		name = "mask"
@@ -59,7 +71,17 @@ entity = {
 	attribute = { name = "bs_head_round_shape"				blend_shape = "completeHelm_bs_RoundHead" }
 	attribute = { name = "bs_head_lower_height_max"				blend_shape = "completeHelm_bs_HeightLower" }
 
-	
+	attribute = { name = "bs_nasolabial_01"				blend_shape = "completeHelm_bs_Naso1" }
+	attribute = { name = "bs_nasolabial_02"				blend_shape = "completeHelm_bs_Naso2" }
+	attribute = { name = "bs_nasolabial_04"				blend_shape = "completeHelm_bs_Naso4" }
+
+	attribute = { name = "bs_jaw_def_max"				blend_shape = "completeHelm_bs_JawDefMax" }
+		
+	attribute = { name = "bs_old_1"																blend_shape = "completeHelm_bs_Old1" }
+	attribute = { name = "bs_old_2"																blend_shape = "completeHelm_bs_Old2" }
+	attribute = { name = "bs_old_3"																blend_shape = "completeHelm_bs_Old3" }
+	attribute = { name = "bs_old_4"																blend_shape = "completeHelm_bs_Old4" }
+
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
@@ -93,6 +115,17 @@ entity = {
 	attribute = { name = "neck_width"				blend_shape = "completeHelm_bs_NeckWidth" }
 	attribute = { name = "bs_head_round_shape"				blend_shape = "completeHelm_bs_RoundHead" }
 	attribute = { name = "bs_head_lower_height_max"				blend_shape = "completeHelm_bs_HeightLower" }
+
+	attribute = { name = "bs_nasolabial_01"				blend_shape = "completeHelm_bs_Naso1" }
+	attribute = { name = "bs_nasolabial_02"				blend_shape = "completeHelm_bs_Naso2" }
+	attribute = { name = "bs_nasolabial_04"				blend_shape = "completeHelm_bs_Naso4" }
+	attribute = { name = "bs_jaw_def_max"				blend_shape = "completeHelm_bs_JawDefMax" }
+
+	
+	attribute = { name = "bs_old_1"																blend_shape = "completeHelm_bs_Old1" }
+	attribute = { name = "bs_old_2"																blend_shape = "completeHelm_bs_Old2" }
+	attribute = { name = "bs_old_3"																blend_shape = "completeHelm_bs_Old3" }
+	attribute = { name = "bs_old_4"																blend_shape = "completeHelm_bs_Old4" }
 
 	game_data = {
         portrait_entity_user_data = {
