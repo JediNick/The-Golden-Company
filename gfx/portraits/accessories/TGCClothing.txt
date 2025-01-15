@@ -22,3 +22,29 @@ male_clothes_platedVest_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""			shared_pose_entity = torso	entity = platedVest_entity }		
 }
+
+##Black
+male_clothes_captainsArmor_black_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+entity = { required_tags = ""			shared_pose_entity = torso	entity = captainsArmor_black_entity }		
+}
+
+male_clothes_captainsArmorMetal_black_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+entity = { required_tags = ""			shared_pose_entity = torso	entity = captainsArmorMetal_black_entity }		
+}
+
+male_clothes_ornateVest_black_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+entity = { required_tags = ""			shared_pose_entity = torso	entity = ornateVest_black_entity }		
+}
+
+male_clothes_standardVest_black_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+entity = { required_tags = ""			shared_pose_entity = torso	entity = standardVest_black_entity }		
+}
+
+male_clothes_platedVest_black_01 = {
+set_tags = "shrink_arms,shrink_chest,shrink_belly"
+entity = { required_tags = ""			shared_pose_entity = torso	entity = platedVest_black_entity }		
+}

@@ -12,3 +12,19 @@ male_legwear_twoSwordsPants_01 = {
 	set_tags = "shrink_legs,shrink_feet"
 	entity = { required_tags = ""		shared_pose_entity = torso	entity = twoSwordsPants_entity	  }
 }
+
+##Black 
+male_legwear_captainsPants_black_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = captainsPants_black_entity	  }
+}
+
+male_legwear_standardPants_black_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = standardPants_black_entity	  }
+}
+
+male_legwear_twoSwordsPants_black_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = twoSwordsPants_black_entity	  }
+}

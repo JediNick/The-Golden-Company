@@ -28,3 +28,35 @@ male_headgear_tgc_helm_03 = {
 	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noRidge_entity		  }
 }
 
+
+male_headgear_tgc_helm_mask_black_01 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard,mask"
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelmFull_black_entity		  }
+}
+
+male_headgear_tgc_helm_mask_black_02 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard,mask"
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelm_noCloth_black_entity		  }
+}
+
+male_headgear_tgc_helm_mask_black_03 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,no_beard,mask"
+	entity = { required_tags = ""		shared_pose_entity = head entity = maskedHelm_noRidge_black_entity		  }
+}
+
+male_headgear_tgc_helm_black_01 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelmFull_black_entity		  }
+}
+
+male_headgear_tgc_helm_black_02 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noCloth_black_entity		  }
+}
+
+male_headgear_tgc_helm_black_03 = {
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
+	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noRidge_black_entity		  }
+}
+
+
