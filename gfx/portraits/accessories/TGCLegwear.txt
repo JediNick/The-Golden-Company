@@ -28,3 +28,36 @@ male_legwear_twoSwordsPants_black_01 = {
 	set_tags = "shrink_legs,shrink_feet"
 	entity = { required_tags = ""		shared_pose_entity = torso	entity = twoSwordsPants_black_entity	  }
 }
+
+
+##Black 
+male_legwear_captainsPants_blackfyre_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = captainsPants_blackfyre_entity	  }
+}
+
+male_legwear_standardPants_blackfyre_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = standardPants_blackfyre_entity	  }
+}
+
+male_legwear_twoSwordsPants_blackfyre_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = twoSwordsPants_blackfyre_entity	  }
+}
+
+##Black 
+male_legwear_captainsPants_blackfyreAlt_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = captainsPants_blackfyreAlt_entity	  }
+}
+
+male_legwear_standardPants_blackfyreAlt_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = standardPants_blackfyreAlt_entity	  }
+}
+
+male_legwear_twoSwordsPants_blackfyreAlt_01 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = ""		shared_pose_entity = torso	entity = twoSwordsPants_blackfyreAlt_entity	  }
+}

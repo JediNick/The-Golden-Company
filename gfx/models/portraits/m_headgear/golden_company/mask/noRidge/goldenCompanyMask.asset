@@ -136,3 +136,93 @@ entity = {
         }
 	}
 }
+
+entity = {
+	name = "goldenCompanyMask_blackfyre_entity"
+	pdxmesh = "goldenCompanyMask_mesh"
+
+		
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
+	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
+	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	attribute = { name = "bs_cheek_prominence_max"				blend_shape = "completeHelm_bs_cheekProm" }
+	attribute = { name = "bs_cheek_def_01"				blend_shape = "completeHelm_bs_cheekDef" }
+	attribute = { name = "bs_cheek_def_02"				blend_shape = "completeHelm_bs_cheekDef2" }
+	attribute = { name = "bs_cheek_fat_01_max"				blend_shape = "completeHelm_bs_cheekFat1" }
+	attribute = { name = "bs_cheek_fat_02_max"				blend_shape = "completeHelm_bs_cheekFat2" }
+	attribute = { name = "bs_cheek_fat_03_max"				blend_shape = "completeHelm_bs_cheekFat3" }
+	attribute = { name = "bs_cheek_fat_04_max"				blend_shape = "completeHelm_bs_cheekFat4" }
+	attribute = { name = "bs_cheek_width_max"				blend_shape = "completeHelm_bs_cheekWidth" }
+	attribute = { name = "bs_cheek_forward_max"				blend_shape = "completeHelm_bs_cheekForward" }
+	attribute = { name = "bs_cheek_fat_max"				blend_shape = "completeHelm_bs_cheekFatMax" }
+	attribute = { name = "bs_cheek_fat_max"				blend_shape = "completeHelm_bs_cheekFatMax" }
+	attribute = { name = "jaw_width"				blend_shape = "completeHelm_bs_JawMax" }
+	attribute = { name = "neck_width"				blend_shape = "completeHelm_bs_NeckWidth" }
+	attribute = { name = "bs_head_round_shape"				blend_shape = "completeHelm_bs_RoundHead" }
+	attribute = { name = "bs_head_lower_height_max"				blend_shape = "completeHelm_bs_HeightLower" }
+
+	attribute = { name = "bs_nasolabial_01"				blend_shape = "completeHelm_bs_Naso1" }
+	attribute = { name = "bs_nasolabial_02"				blend_shape = "completeHelm_bs_Naso2" }
+	attribute = { name = "bs_nasolabial_04"				blend_shape = "completeHelm_bs_Naso4" }
+	attribute = { name = "bs_jaw_def_max"				blend_shape = "completeHelm_bs_JawDefMax" }
+
+	
+	attribute = { name = "bs_old_1"																blend_shape = "completeHelm_bs_Old1" }
+	attribute = { name = "bs_old_2"																blend_shape = "completeHelm_bs_Old2" }
+	attribute = { name = "bs_old_3"																blend_shape = "completeHelm_bs_Old3" }
+	attribute = { name = "bs_old_4"																blend_shape = "completeHelm_bs_Old4" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_headgear/golden_company/CaptainsHelm_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_helm_blackfyre"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "goldenCompanyMask_blackfyreAlt_entity"
+	pdxmesh = "goldenCompanyMask_mesh"
+
+		
+	attribute = { name = "bs_fat_1"					blend_shape = "completeHelm_bs_dwarf_fat" }
+	attribute = { name = "bs_muscular_1"			blend_shape = "completeHelm_bs_muscular" }
+	attribute = { name = "bs_dwarf_1"				blend_shape = "completeHelm_bs_dwarf" }
+	attribute = { name = "bs_cheek_prominence_max"				blend_shape = "completeHelm_bs_cheekProm" }
+	attribute = { name = "bs_cheek_def_01"				blend_shape = "completeHelm_bs_cheekDef" }
+	attribute = { name = "bs_cheek_def_02"				blend_shape = "completeHelm_bs_cheekDef2" }
+	attribute = { name = "bs_cheek_fat_01_max"				blend_shape = "completeHelm_bs_cheekFat1" }
+	attribute = { name = "bs_cheek_fat_02_max"				blend_shape = "completeHelm_bs_cheekFat2" }
+	attribute = { name = "bs_cheek_fat_03_max"				blend_shape = "completeHelm_bs_cheekFat3" }
+	attribute = { name = "bs_cheek_fat_04_max"				blend_shape = "completeHelm_bs_cheekFat4" }
+	attribute = { name = "bs_cheek_width_max"				blend_shape = "completeHelm_bs_cheekWidth" }
+	attribute = { name = "bs_cheek_forward_max"				blend_shape = "completeHelm_bs_cheekForward" }
+	attribute = { name = "bs_cheek_fat_max"				blend_shape = "completeHelm_bs_cheekFatMax" }
+	attribute = { name = "bs_cheek_fat_max"				blend_shape = "completeHelm_bs_cheekFatMax" }
+	attribute = { name = "jaw_width"				blend_shape = "completeHelm_bs_JawMax" }
+	attribute = { name = "neck_width"				blend_shape = "completeHelm_bs_NeckWidth" }
+	attribute = { name = "bs_head_round_shape"				blend_shape = "completeHelm_bs_RoundHead" }
+	attribute = { name = "bs_head_lower_height_max"				blend_shape = "completeHelm_bs_HeightLower" }
+
+	attribute = { name = "bs_nasolabial_01"				blend_shape = "completeHelm_bs_Naso1" }
+	attribute = { name = "bs_nasolabial_02"				blend_shape = "completeHelm_bs_Naso2" }
+	attribute = { name = "bs_nasolabial_04"				blend_shape = "completeHelm_bs_Naso4" }
+	attribute = { name = "bs_jaw_def_max"				blend_shape = "completeHelm_bs_JawDefMax" }
+
+	
+	attribute = { name = "bs_old_1"																blend_shape = "completeHelm_bs_Old1" }
+	attribute = { name = "bs_old_2"																blend_shape = "completeHelm_bs_Old2" }
+	attribute = { name = "bs_old_3"																blend_shape = "completeHelm_bs_Old3" }
+	attribute = { name = "bs_old_4"																blend_shape = "completeHelm_bs_Old4" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_headgear/golden_company/CaptainsHelm_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_helm_blackfyreAlt"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
