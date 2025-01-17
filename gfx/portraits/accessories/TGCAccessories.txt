@@ -1,0 +1,15 @@
+﻿tgc_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "goldenCompanyShield_entity" }	
+}
+
+tgc_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "goldenCompanyShield_right_entity" }	
+}
+
+tgc_blackfyre_shield = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "blackfyreShield_entity" }	
+}
+
+tgc_blackfyre_shield_right = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "blackfyreShield_right_entity" }	
+}
