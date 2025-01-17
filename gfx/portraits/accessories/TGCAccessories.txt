@@ -13,3 +13,11 @@ tgc_blackfyre_shield = {
 tgc_blackfyre_shield_right = {
 	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "blackfyreShield_right_entity" }	
 }
+
+tgc_sword = {
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "tgc_sword_entity" }	
+}
+
+tgc_sword_left = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "tgc_sword_left_entity" }	
+}
