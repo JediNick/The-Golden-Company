@@ -21,3 +21,19 @@ tgc_sword = {
 tgc_sword_left = {
 	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "tgc_sword_left_entity" }	
 }
+
+tgc_sword_blackfyre = {
+	entity = {	required_tags = ""        node = "bn_r_prop" entity = "tgc_sword_blackfyre_entity" }	
+}
+
+tgc_sword_blackfyre_left = {
+	entity = {	required_tags = ""        node = "bn_l_prop" entity = "tgc_sword_blackfyre_left_entity" }	
+}
+
+tgc_sword_blackfyre_alt = {
+	entity = {	required_tags = ""        node = "bn_r_prop" entity = "tgc_sword_blackfyre_alt_entity" }	
+}
+
+tgc_sword_blackfyre_left_alt = {
+	entity = {	required_tags = ""        node = "bn_l_prop" entity = "tgc_sword_blackfyre_left_alt_entity" }	
+}

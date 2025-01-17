@@ -42,3 +42,58 @@ entity = {
 	}
 }
 
+entity = {
+	name = "tgc_sword_blackfyre_entity"
+	pdxmesh = "tgc_sword_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/sword/tgc_sword_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_legwear_blackfyre"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "tgc_sword_blackfyre_left_entity"
+	pdxmesh = "tgc_sword_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/sword/tgc_sword_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_legwear_blackfyre"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "tgc_sword_blackfyre_alt_entity"
+	pdxmesh = "tgc_sword_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/sword/tgc_sword_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_legwear_blackfyreAlt"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "tgc_sword_blackfyre_left_alt_entity"
+	pdxmesh = "tgc_sword_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/sword/tgc_sword_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "goldenCompany_standard_legwear_blackfyreAlt"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
