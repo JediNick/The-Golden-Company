@@ -1,0 +1,6 @@
+﻿captains_sword = {
+	icon = "artifact_captains_sword.dds"
+	asset = {
+		reference = captains_sword_entity
+	}
+}
