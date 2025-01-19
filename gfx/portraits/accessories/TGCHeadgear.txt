@@ -85,5 +85,7 @@ male_headgear_tgc_facemask_blackfyreAlt_01 = {
 	entity = { required_tags = ""		shared_pose_entity = head entity = goldenCompanyMask_blackfyreAlt_entity  }
 }
 
-
-
+male_headgear_chains_headgear = {	
+	set_tags = "no_hair,hood_beard,snug_headgear"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = m_headgear_chains_entity 	 }
+}

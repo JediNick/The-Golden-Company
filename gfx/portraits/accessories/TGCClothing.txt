@@ -23,6 +23,11 @@ male_clothes_platedVest_01 = {
 	entity = { required_tags = ""			shared_pose_entity = torso	entity = platedVest_entity }		
 }
 
+male_clothes_platedVest_chains_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""			shared_pose_entity = torso	entity = platedVest_chains_entity }		
+}
+
 ##Black
 male_clothes_captainsArmor_black_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
