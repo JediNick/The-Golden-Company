@@ -1,6 +1,12 @@
 ﻿captains_sword = {
 	icon = "artifact_captains_sword.dds"
 	asset = {
-		reference = captains_sword_entity
+		trigger = {
+			tgc_blackfyre_equipment_trigger = yes
+		}
+		reference = tgc_sword_captain_blackfyre_entity
+	}
+	asset = {
+		reference = tgc_sword_captain_entity
 	}
 }
