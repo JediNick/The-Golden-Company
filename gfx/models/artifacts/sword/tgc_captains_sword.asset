@@ -28,7 +28,6 @@ entity = {
 	}
 }
 
-
 entity = {
 	name = "tgc_sword_captain_blackfyre_entity"
 	pdxmesh = "tgc_sword_captain_mesh"

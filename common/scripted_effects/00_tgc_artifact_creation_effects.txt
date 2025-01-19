@@ -41,3 +41,18 @@
 		
 	}
 }
+
+tgc_artifacts_setup_effect = {
+	if = {
+		limit = { exists = title:d_laamp_merc_golden_company.holder }
+		title:d_laamp_merc_golden_company.holder = {
+			create_artifact_captains_sword_effect = { OWNER = title:e_blackfyre_rebellion.holder }
+		}
+	}
+	else_if = {
+		limit = { exists = title:e_blackfyre_rebellion.holder }
+		title:e_blackfyre_rebellion.holder = {
+			create_artifact_captains_sword_effect = { OWNER = title:e_blackfyre_rebellion.holder }
+		}
+	}
+}

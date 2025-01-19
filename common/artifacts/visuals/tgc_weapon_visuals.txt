@@ -2,7 +2,12 @@
 	icon = "artifact_captains_sword.dds"
 	asset = {
 		trigger = {
-			tgc_blackfyre_equipment_trigger = yes
+			OR = {
+				employer ?= title:e_blackfyre_rebellion.holder
+				liege ?= title:e_blackfyre_rebellion.holder
+				this = title:e_blackfyre_rebellion.holder
+				house = house:house_Blackfyre
+			}
 		}
 		reference = tgc_sword_captain_blackfyre_entity
 	}

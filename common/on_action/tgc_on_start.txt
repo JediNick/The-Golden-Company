@@ -1,6 +1,8 @@
 ﻿on_game_start = {
 	on_actions = {
 		tgc_start
+		delay = { days = 1 }
+		tgc_artifacts_setup
 	}
 }
 
@@ -15,5 +17,11 @@ tgc_start = {
                exists = global_var:tgc_enabled
 			}
 		}
+	}
+}
+
+tgc_artifacts_setup = {
+	effect = {
+		tgc_artifacts_setup_effect = yes 
 	}
 }
