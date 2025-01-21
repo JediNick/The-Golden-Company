@@ -43,6 +43,16 @@ pdxmesh = {
 	}
 
 	meshsettings = {
+		name = "banner"
+		index = 0
+		texture_diffuse = "tgc_banner_diffuse.dds"
+		texture_normal = "tgc_banner_normal.dds"
+		texture_specular = "tgc_banner_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	meshsettings = {
 		name = "sword"
 		index = 0
 		texture_diffuse = "tgc_sword_prop_diffuse.dds"
@@ -108,6 +118,16 @@ pdxmesh = {
 		texture_diffuse = "tabletop_western_coin_diffuse.dds"
 		texture_normal = "tabletop_western_coin_normal.dds"
 		texture_specular = "tabletop_western_coin_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	meshsettings = {
+		name = "chessPiece"
+		index = 0
+		texture_diffuse = "tgc_chessPiece_diffuse.dds"
+		texture_normal = "tgc_chessPiece_normal.dds"
+		texture_specular = "tgc_chessPiece_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

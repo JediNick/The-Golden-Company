@@ -92,7 +92,7 @@ map_table_style_tgc= {
 		}
 	}
 
-	environment = "gfx/map/environment/environment_crowned_stag_table.txt"
+	environment = "gfx/map/environment/environment_tgc_table.txt"
 	priority = 1
 }
 
