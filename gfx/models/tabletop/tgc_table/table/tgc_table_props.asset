@@ -38,7 +38,7 @@ pdxmesh = {
 		texture_diffuse = "skullPike_diffuse.dds"
 		texture_normal = "skullPike_normal.dds"
 		texture_specular = "skullPike_properties.dds"
-		shader = "standard"
+		shader = "standard_map_decoration"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
@@ -48,7 +48,7 @@ pdxmesh = {
 		texture_diffuse = "tgc_banner_diffuse.dds"
 		texture_normal = "tgc_banner_normal.dds"
 		texture_specular = "tgc_banner_properties.dds"
-		shader = "standard"
+		shader = "standard_map_decoration"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 	
