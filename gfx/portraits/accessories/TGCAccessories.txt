@@ -45,3 +45,15 @@ tgc_sword_blackfyre_alt = {
 tgc_sword_blackfyre_left_alt = {
 	entity = {	required_tags = ""        node = "bn_l_prop" entity = "tgc_sword_blackfyre_left_alt_entity" }	
 }
+
+tgc_banner = {
+	entity = {	required_tags = ""        node = "bn_l_prop" entity = "tgc_banner_entity"}	
+}
+
+tgc_banner_dyn = {
+	entity = {	required_tags = ""        node = "bn_l_prop" entity = "tgc_banner_dyn_entity"}	
+}
+
+tgc_skullPike = {
+	entity = {	required_tags = ""        node = "bn_l_prop" entity = "skullPike_entity"}	
+}

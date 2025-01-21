@@ -2,15 +2,43 @@ pdxmesh = {
 	name = "skullPike_mesh"
 	file = "skullPike.mesh"
 
+	meshsettings = {
+		name = "bittersteel"
+		index = 0
+		texture_diffuse = "artifact_bittersteel_skull_diffuse.dds"
+		texture_normal = "artifact_bittersteel_skull_normal.dds"
+		texture_specular = "artifact_bittersteel_skull_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+
+	}
+	meshsettings = {
+		name = "daemon"
+		index = 0
+		texture_diffuse = "artifact_daemon_blackfyre_skull_diffuse.dds"
+		texture_normal = "artifact_daemon_blackfyre_skull_normal.dds"
+		texture_specular = "artifact_daemon_blackfyre_skull_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "maelys"
+		index = 0
+		texture_diffuse = "artifact_maelys_blackfyre_skull_diffuse.dds"
+		texture_normal = "artifact_maelys_blackfyre_skull_normal.dds"
+		texture_specular = "artifact_maelys_blackfyre_skull_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 
 	meshsettings = {
-		name = "sword"
+		name = "pike"
 		index = 0
 		texture_diffuse = "skullPike_diffuse.dds"
 		texture_normal = "skullPike_normal.dds"
 		texture_specular = "skullPike_properties.dds"
 		shader = "standard"
-		shader_file = "gfx/FX/jomini/portrait.shader"
+		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }
 
