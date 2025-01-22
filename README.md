@@ -41,17 +41,10 @@ Any other mod that touches the clothing files is likely to be incompatible.
 
 
 ### Credits
-- [ceredircosplay](https://www.etsy.com/shop/CeredirCosplay) - Viserys Mask model 
 
-- [Kien Tran](https://www.artstation.com/artwork/obJYZk) - Rhaenerya dress & crown models
+- Necro - Allowing the use of his Golden Company Skulls
 
-- [Andrew Kerr](https://www.artstation.com/artwork/kl6av6) - Daemon clothing model 
-
-- [Julián Montoya](https://www.artstation.com/artwork/yDNmDJ) - Viserys clothing model
-
-- [Oniric_Armory](https://cults3d.com/en/users/Oniric_Armory/3d-models) - Aegon Dagger base model
-
-- [The Valyrian Armory/greedofrage](https://www.tumblr.com/greedofrage) - Allowing me to use their concept art for the Celtigar axe
+- Anumaril - Some characters used in promotional pictures use his AGOT+ characters/DNA.
 
 - Ck3 Modding Coop - For answering my modding questions & providing helpful advice.
 
