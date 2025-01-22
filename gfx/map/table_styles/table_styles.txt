@@ -87,9 +87,7 @@ map_table_style_golden_age= {
 map_table_style_tgc= {
 
 	is_shown = {
-		OR = {
-			always = yes
-		}
+		this = title:d_laamp_merc_golden_company.holder
 	}
 
 	environment = "gfx/map/environment/environment_tgc_table.txt"
