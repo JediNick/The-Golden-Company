@@ -33,3 +33,10 @@ captains_sword_court = {
 		reference = tgc_sword_captain_sword_a_entity
 	}
 }
+
+skullPike_artifact = {
+	icon = "skullPike_artifact.dds"
+	asset = {
+		reference = skullPike_court_entity
+	}
+}

@@ -11,3 +11,18 @@ captains_sword_to_court = {
 	out_type = pedestal
 	out_visuals = captains_sword_court
 }
+
+skullPike_to_inventory = {
+	in_type = pedestal
+	in_visuals = skullPike_artifact
+	out_type = miscellaneous
+	out_visuals = skullPike_artifact
+}
+
+skullPike_to_court = {
+	in_type = miscellaneous
+	in_visuals = skullPike_artifact
+	out_type = pedestal
+	out_visuals = skullPike_artifact
+}
+

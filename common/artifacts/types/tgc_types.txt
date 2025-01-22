@@ -8,3 +8,9 @@
 		decoration_pattern decoration_material_inlay decoration_material_wire
 	}
 }
+
+skullPike = {
+	slot = miscellaneous
+	required_features = { }
+	optional_features = { }
+}
