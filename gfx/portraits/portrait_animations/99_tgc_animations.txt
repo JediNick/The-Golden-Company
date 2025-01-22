@@ -58,6 +58,35 @@ tgc_banner_dyn_idle = {
 	boy = male
 }
 
+tgc_skullPike_idle = {
+	male = {
+		default = { head = "throneRoom_twoHandedPassive1_entry" torso = "throneRoom_twoHandedPassive1_entry" }
+
+		throneRoom_one_handed_passive_1= {
+			animation = { head = "throneRoom_twoHandedPassive1_entry" torso = "throneRoom_twoHandedPassive1_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 100
+					always = yes				
+				}
+			}
+		
+			portrait_modifier = { # Equipped
+				animations_props = tgc_skullPike
+				animations = council_marshal_decal
+				animations = fat_additive
+				animations = dwarf_additive
+				animations = female_prop_fix_additive
+			}
+		}
+	}
+	female = male
+	girl = male
+	boy = male
+}
 
 tgc_spearshield_idle = {
 	male = {
