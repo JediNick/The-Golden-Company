@@ -37,7 +37,7 @@ male_headgear_tgc_helm_blackfyre_01 = {
 }
 
 male_headgear_tgc_helm_blackfyre_02 = {
-	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,dhood_beard"
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
 	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noCloth_blackfyre_entity		  }
 }
 
@@ -53,7 +53,7 @@ male_headgear_tgc_helm_blackfyreAlt_01 = {
 }
 
 male_headgear_tgc_helm_blackfyreAlt_02 = {
-	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,dhood_beard"
+	set_tags = "helmet,cap,snug_headgear,agot_snug_headgear,no_hair,hood_beard"
 	entity = { required_tags = ""		shared_pose_entity = head entity = unmaskedHelm_noCloth_blackfyreAlt_entity		  }
 }
 
