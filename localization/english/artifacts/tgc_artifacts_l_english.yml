@@ -61,12 +61,12 @@ PORTRAIT_MODIFIER_custom_legwear_male_legwear_standardPants_blackfyre_01:0 "$POR
 PORTRAIT_MODIFIER_custom_legwear_male_legwear_standardPants_blackfyreAlt_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_standardPants_01$ (Blackfyre Alt)"  
 PORTRAIT_MODIFIER_custom_legwear_male_legwear_twoSwordsPants_blackfyre_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_twoSwordsPants_01$ (Blackfyre)"  
 PORTRAIT_MODIFIER_custom_legwear_male_legwear_twoSwordsPants_blackfyreAlt_01:0 "$PORTRAIT_MODIFIER_custom_legwear_male_legwear_twoSwordsPants_01$ (Blackfyre Alt)"  
-PORTRAIT_MODIFIER_custom_special_male_headgear_tgc_facemask_01:0 "@tgc_icon! Golden Company Facemask"  
-PORTRAIT_MODIFIER_custom_special_male_headgear_tgc_facemask_black_01:0 "@tgc_icon! Golden Company Facemask (Black)"  
-PORTRAIT_MODIFIER_custom_special_male_headgear_tgc_facemask_blackfyre_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre)"  
-PORTRAIT_MODIFIER_custom_special_male_headgear_tgc_facemask_blackfyreAlt_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre Alt)"  
+PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_01:0 "@tgc_icon! Golden Company Facemask"  
+PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_black_01:0 "@tgc_icon! Golden Company Facemask (Black)"  
+PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_blackfyre_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre)"  
+PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_blackfyreAlt_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre Alt)"  
 
-PORTRAIT_MODIFIER_custom_special_male_empty:0 "Empty"  
+PORTRAIT_MODIFIER_custom_special_masks_male_empty:0 "Empty"  
 
 map_table_style_tgc: "@tgc_icon! Golden Company Table"
 
