@@ -1,4 +1,4 @@
-version="1.0.2"
+version="1.0.3"
 tags={
 	"Decisions"
 	"Events"
@@ -8,5 +8,5 @@ tags={
 }
 name="The Golden Company"
 picture="thumbnail.png"
-supported_version="1.15.*"
+supported_version="1.16.*"
 remote_file_id="3412222811"
