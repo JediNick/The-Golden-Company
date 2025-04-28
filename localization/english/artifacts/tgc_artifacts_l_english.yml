@@ -66,8 +66,6 @@ PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_black_01:0 "@t
 PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_blackfyre_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre)"  
 PORTRAIT_MODIFIER_custom_special_masks_male_headgear_tgc_facemask_blackfyreAlt_01:0 "@tgc_icon! Golden Company Facemask (Blackfyre Alt)"  
 
-PORTRAIT_MODIFIER_custom_special_masks_male_empty:0 "Empty"  
-
 map_table_style_tgc: "@tgc_icon! Golden Company Table"
 
 rule_tgc_enabled_rule: "@tgc_icon! Golden Company Armor"
